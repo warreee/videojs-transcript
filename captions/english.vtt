@@ -1,4 +1,100 @@
 WEBVTT
 
+1
 00:00:00.000 --> 00:00:08.360
 Okay now for the grand finale, we're going to answer the kind of questions you will get as a data scientist.
+
+2
+00:00:08.360 --> 00:00:10.120
+We'll be using each of the techniques shown in this
+
+3
+00:00:10.120 --> 00:00:11.560
+video to complete the case study.
+
+6
+00:00:12.800 --> 00:00:16.920
+Here is an example of how we calculated an average in an exercise from Chapter 3.
+
+7
+00:00:16.920 --> 00:00:18.880
+We began by importing the select statement.
+
+8
+00:00:18.880 --> 00:00:21.800
+Next we built a select statement that creates a weighted average.
+
+9
+00:00:21.800 --> 00:00:25.680
+We do this by summing the result of multiplying the age with the population and
+
+10
+00:00:25.680 --> 00:00:30.720
+dividing that by the sum of the total population and labeling that average age.
+
+11
+00:00:30.720 --> 00:00:34.640
+Next we grouped by the sex column to determine the average age for each sex.
+
+12
+00:00:34.640 --> 00:00:38.400
+Finally, we executed the query and fetched all the results.
+
+
+15
+00:00:38.400 --> 00:00:43.280
+We learned how to calculate a percentage by using the case and cast clauses in Chapter 3.
+
+16
+00:00:43.280 --> 00:00:47.680
+We being by importing case, cast, and Float then we build a select statement
+
+17
+00:00:47.680 --> 00:00:52.960
+that calculates the sum of the pop2008 column in cases where the state is New York.
+
+18
+00:00:52.960 --> 00:00:58.600
+Then we divided that by the sum of the total population which is cast to a Float so we would get Decimal values.
+
+19
+00:00:58.600 --> 00:01:04.400
+Finally, we multiplyed by 100 to get a percentages and labeled it ny_percent.
+
+
+22
+00:01:04.400 --> 00:01:09.560
+Also from Chapter 3, we learned how calculate the difference between two columns grouped by another column.
+
+23
+00:01:09.560 --> 00:01:11.840
+We start by building a select statement, that selects the
+
+24
+00:01:11.840 --> 00:01:16.200
+column we want to determine the change by, which in this case is age.
+
+25
+00:01:16.200 --> 00:01:23.280
+Then we calculate the difference between the population in 2008 and in 2000, and we label that pop_change.
+
+26
+00:01:23.280 --> 00:01:27.240
+Remember to wrap the difference calculation in parenthesis so you can label it.
+
+27
+00:01:27.240 --> 00:01:32.200
+Next, we order by pop_change and finally we limit it to just 5 results.
+
+
+
+30
+00:01:32.200 --> 00:01:34.760
+Now it's your turn to use these techniques in the case study.
+
+
+
+33
+00:01:35.160 --> 00:01:38.240
+Good luck!
+
